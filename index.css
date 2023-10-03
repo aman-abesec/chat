@@ -275,3 +275,9 @@ div::-webkit-scrollbar-thumb {
   border-radius: 25px;       /* roundness of the scroll thumb */
   border: 2px solid #ccc;  /* creates padding around scroll thumb */
 }
+@media only screen and (max-width: 600px) {
+  .chat_container,#chat_content_container,#chat_input_container {
+    width:95%;
+    margin:0px auto;
+  }
+}
